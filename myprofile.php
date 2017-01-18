@@ -44,7 +44,7 @@
                                 </div>
             <div class="container" style="background-color:border-radius: 15px">
                                      <center>
-                                         <img src="assets/images/myprofile.jpg"/>
+                                         <img class="image" src="assets/images/myprofile.jpg"/>
                                      </center>
                                 </div>
                                  

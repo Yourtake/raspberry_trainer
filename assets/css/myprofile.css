@@ -25,11 +25,16 @@ background: #0099cc;
    text-shadow: 4px 4px 8px #000000;
     font-weight: bold;
                                   }
- @media screen and (min-width: 640px) {
-                                #logo{
-                                    width:200px;
-                                    height:180px;
-                                }
-     
+.image{
+       width:300px;
+       height:305px;
+     }
+ @media screen and (min-width: 700px) {
+                              
+     .image{
+         
+       width:692px;
+    height:700px;
+     }
                             
                             }

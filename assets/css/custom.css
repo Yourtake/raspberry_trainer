@@ -1,0 +1,137 @@
+
+/*============================= Sayed  Arif ===================================*/
+@font-face {
+  font-family:'ProximaNova-Regular';
+  src: url('../../fonts/ProximaNova-Regular.eot') format('embedded-opentype');
+  src:  url('../../fonts/ProximaNova-Regular.otf') format('opentype'),
+url('../../fonts/ProximaNova-Regular.woff') format('woff'),
+url('../../fonts/ProximaNova-Regular.ttf') format('truetype'), 
+url('../../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('../../fonts/ProximaNova-Bold.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src:  url('../../fonts/ProximaNova-Bold.otf') format('opentype'),
+url('../../fonts/ProximaNova-Bold.woff') format('woff'), 
+url('../../fonts/ProximaNova-Bold.ttf') format('truetype'), 
+url('../../fonts/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src: url('../../fonts/ProximaNova-Light.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Light';
+  src:  url('../../fonts/ProximaNova-Light.otf') format('opentype'),
+url('../../fonts/ProximaNova-Light.woff') format('woff'), 
+url('../../fonts/ProximaNova-Light.ttf') format('truetype'), 
+url('../../fonts/ProximaNova-Light.svg#ProximaNova-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src: url('../../fonts/ProximaNova-Semibold.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'ProximaNova-Semibold';
+  src:  url('../../fonts/ProximaNova-Semibold.otf') format('opentype'),
+url('../../fonts/ProximaNova-Semibold.otf') format('woff'), 
+url('../../fonts/ProximaNova-Semibold.ttf') format('truetype'),
+url('../../fonts/ProximaNova-Semibold.svg#ProximaNova-Semibold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body{padding:0;margin:0;font-family: 'Roboto', sans-serif;}
+.main {width:100%;}
+header {background:#01827a;padding:16px;}
+header h1 {text-transform:uppercase;color:#fff;text-align:center;margin:0;FONT-WEIGHT: NORMAL; FONT-SIZE: 30PX;    text-shadow: 4px 4px 8px #000000;}
+.sec_profile {width:100%;}
+.sec_profile ul {list-style:none;padding:0;margin:0; width:100%;float:left;}
+.sec_profile ul li {float:left;width:33.33%;}
+.bxProfile {width:100%; position:relative;line-height:0;}
+.bxProfile img {width:100%;}
+.contentProfile {position:absolute;left:0;top:30%; width: 100%; text-align: center;padding: 7px;box-sizing:border-box;line-height:25px;}
+.contentProfile_bottom {top:auto;bottom:20px;}
+.contentProfile a {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    padding: 5px 19px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #fff;
+    text-shadow: 0px 0px 10px #000;
+    background:  rgba(50,50,50,0.20);
+}
+.contentProfile a:hover {background:#fff;color:#000000;text-decoration: none;    text-shadow: 0px 0px 10px #fff; }
+a.colorblack {color:#000;border:#000;border: 1px solid #000; background:  rgba(255,255,255,0.20);text-shadow: 0px 0px 10px #fff;}
+a.colorblack:hover {color:#ffffff;background:#000;;text-decoration: none;text-shadow: 0px 0px 10px #000;}
+
+
+.sectxtpart { background: #d4d4d4; padding: 5px 25px 5px; width: 100%; float: left; box-sizing: border-box;}
+.clearfix {clear:both;}
+.sectxtpart p { color: #676767;}
+.main_mobile {width:320px;margin:0 auto;}
+.sec_profileMobile ul li {width:100%;border-top:2px solid #bfbfbf;border-bottom:2px solid #dedede;}
+.sec_profileMobile .contentProfile { background:none;line-height:18px;}
+.sec_profileMobile .contentProfile p { font-size: 16px;font-weight: normal;}
+.main_mobile header {  padding: 15px 9px;border-bottom:2px solid #024642;}
+.main_mobile header h1 { font-size: 20px; font-weight: normal;}
+.contentProfile_left { top: 13px;left:20px;}
+.contentProfile_left p { color: #000; text-align: left;font-size:18px;}
+.contentProfile_right {right:30px;}
+.contentProfile_right p { color: #fff; text-align:right;font-size:18px;}
+.contentProfile_right {right: 21px; top: 3px;left: auto;}
+.sec_profileMobile .contentProfile_feedback {right: 0px; background: rgba(0, 0, 0, 0.73); width: 50%; left: auto;}
+.contentProfile_registration {top:32%;}
+.imgProfile_mobile, .imgProfile_mobile, .imgProfile_mobile, .imgProfile_mobile, .imgProfile_mobile {display:none;}
+
+
+
+
+/*responsive*/
+@media (max-width:767px){
+	.sec_profile ul li { float: none; width: 100%;}	
+	header h1 {  font-size: 19px;}
+	.sectxtpart { padding: 5px 15px 5px;}
+	.sectxtpart p {  font-size: 13px;}
+	.imgProfile_mobile, .imgProfile_mobile, .imgProfile_mobile, .imgProfile_mobile, .imgProfile_mobile, imgProfile_mobile {display:block;}
+	.imgProfile_desk {display:none;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -9,7 +9,6 @@
             <meta name="author" content="Souvik Das">
             <title>Trainer - Feedback</title>
             
-            <link href="assets/css/images/logo.png" rel="shortcut icon">
             <link type="text/css" href="assets/css/jquery-ui-1.10.4.css" rel="stylesheet">
             <!--
             <link type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">

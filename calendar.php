@@ -7,9 +7,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <meta name="description" content="">
             <meta name="author" content="Souvik Das">
-            <title>Love And Latte - Fun Facts</title>
+            <title>Trainer - Calender</title>
 
-            <link href="assets/css/images/logo.png" rel="shortcut icon">
             <link type="text/css" href="assets/css/jquery-ui-1.10.4.css" rel="stylesheet">
 
                                    <link type="text/css" href="assets/css/bootstrap.min.css" rel="stylesheet">

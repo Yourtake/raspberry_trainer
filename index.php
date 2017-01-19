@@ -108,21 +108,7 @@
             <div class="clearfix"></div>
         </ul>
     </section>     
-    	<section class="sectxtpart">
-    	<p>Part of series of interventions planned for a client at Pune & one of the event listed for the International Facilitation week
-Audience: cross functional mid mgmt <br>
-Topics today: Building winning teams | Pedagogy:| Outdoor games | Process facilitation | Processes:<br>
-Used facilitation for 'Emotional bank account'. <br>
-The grps diverged wid what wl help them increase their bal & what wl reduce. This was then labeled using affinity chart. <br>
-Unclear points were discussed by the participants.<br>
-Post this for CRM, asked grps to identify an existing customer (ext or int) map where they r currently in terms of process & personal touch. Put down actionable  points to achieve quality customer service<br>
-Basis the grp presentation on d above each participant had to write one key point that he wl do at his level wl start, stop continue as self & as a team player
-Feedback from client:<br>
-Realistic approach, relevant, engaging, intense yet fun was involved.<br>
-Self learning: <br>
-Good to ask for feedback.( i did this & cud know what the grp wants in the next session)<br><br>
-Happy learning !! </p>
-    </section>    
+    	    
     </article>    
     <script src="assets/js/jquery.js"></script>
    

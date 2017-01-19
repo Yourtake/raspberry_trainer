@@ -66,7 +66,7 @@ $connected = @fsockopen("lovenlatte.yourtake.in", 80);
                                             try{
                                                         echo 'new user again. send data<br/>';
                                                         $ch = curl_init();
-                                                        curl_setopt($ch, CURLOPT_URL,"http://lovenlatte.yourtake.in/feedback/response");
+                                                        curl_setopt($ch, CURLOPT_URL,"http://lovenlatte.yourtake.in/trainer/feedback/response");
                                                         curl_setopt($ch, CURLOPT_POST, true);
                                                         echo http_build_query($data)."</br>";
                                                         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
@@ -103,7 +103,7 @@ $connected = @fsockopen("lovenlatte.yourtake.in", 80);
                                 try{
                                                 echo 'new user again. send data<br/>';
                                                 $ch = curl_init();
-                                                curl_setopt($ch, CURLOPT_URL,"http://lovenlatte.yourtake.in/feedback/response");
+                                                curl_setopt($ch, CURLOPT_URL,"http://lovenlatte.yourtake.in/trainer/feedback/response");
                                                 curl_setopt($ch, CURLOPT_POST, true);
                                                 echo http_build_query($data)."</br>";
                                                 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));

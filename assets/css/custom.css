@@ -64,6 +64,7 @@ header h1 {text-transform:uppercase;color:#fff;text-align:center;margin:0;FONT-W
 .sec_profile ul li {float:left;width:33.33%;}
 .bxProfile {width:100%; position:relative;line-height:0;}
 .bxProfile img {width:100%;}
+
 .contentProfile {position:absolute;left:0;top:30%; width: 100%; text-align: center;padding: 7px;box-sizing:border-box;line-height:25px;}
 .contentProfile_bottom {top:auto;bottom:20px;}
 .contentProfile a {
@@ -74,12 +75,13 @@ header h1 {text-transform:uppercase;color:#fff;text-align:center;margin:0;FONT-W
     border-radius: 4px;
     cursor: pointer;
     border: 1px solid #fff;
-    text-shadow: 0px 0px 10px #000;
-    background:  rgba(50,50,50,0.20);
+    background:  rgba(50,50,50,0.25);
 }
-.contentProfile a:hover {background:#fff;color:#000000;text-decoration: none;    text-shadow: 0px 0px 10px #fff; }
-a.colorblack {color:#000;border:#000;border: 1px solid #000; background:  rgba(255,255,255,0.20);text-shadow: 0px 0px 10px #fff;}
-a.colorblack:hover {color:#ffffff;background:#000;;text-decoration: none;text-shadow: 0px 0px 10px #000;}
+.contentProfile a:hover {background:#fff;color:#000000;text-decoration: none;     }
+a.colorblack {color:#000;border:#000;border: 1px solid #000; background:  rgba(255,255,255,0.25);}
+a.colorblack:hover {color:#ffffff;background:#000;;text-decoration: none;}
+
+
 
 
 .sectxtpart { background: #d4d4d4; padding: 5px 25px 5px; width: 100%; float: left; box-sizing: border-box;}

@@ -36,8 +36,8 @@
                 	<div class="imgProfile_mobile">
                     	<img src="assets/images/profile_mobile.jpg">
                     </div>
-                    <div class="contentProfile">
-                        <a class="colorblack" href="myprofile.php">my Profile</a>
+                    <div id="my_profile" class="contentProfile">
+                        <a  class="colorblack" href="myprofile.php">my Profile</a>
                     </div>
                 </div>
             </li>
@@ -49,8 +49,8 @@
                 	<div class="imgProfile_mobile">
                     	<img src="assets/images/feedback_mobile.jpg">
                     </div>
-                    <div class="contentProfile">
-                        <a href="feedback.php">Feedback</a>
+                    <div id="feedback" class="contentProfile">
+                        <a  href="feedback.php">Feedback</a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -63,8 +63,8 @@
                 	<div class="imgProfile_mobile">
                     	<img src="assets/images/training_mobile.jpg">
                     </div>
-                    <div class="contentProfile">
-                        <a class="colorblack" href="calendar.php">Training Calendar</a>
+                    <div id="calendar" class="contentProfile">
+                        <a  class="colorblack" href="calendar.php">Training Calendar</a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -77,7 +77,7 @@
                 	<div class="imgProfile_mobile">
                     	<img src="assets/images/program_mobile.jpg">
                     </div>
-                    <div class="contentProfile">
+                    <div id="program_profile" class="contentProfile">
                         <a href="programprofile.php">Program Profile</a>
                     </div>
                     <div class="clearfix"></div>
@@ -86,7 +86,7 @@
         	<li>
             	<div class="bxProfile bxVideo">
                 	<div class="imgProfile_desk">
-                    	<img src="assets/images/imgvideo.jpg">
+                    	<a href="https://www.youtube.com/watch?v=3PWzgZrJTmY" target="_blank"><img src="assets/images/imgvideo.jpg"></a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -100,7 +100,7 @@
                     	<img src="assets/images/registration_mobile.jpg">
                     </div>
                     <div class="contentProfile">
-                        <a class="colorblack" href="register.php">registration</a>
+                        <a id="registration" class="colorblack" href="register.php">registration</a>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -108,7 +108,12 @@
             <div class="clearfix"></div>
         </ul>
     </section>     
-    	    
+        <section class="sectxtpart">  <br>
+                               <center>
+                                   Powered by <img src="assets/css/images/yourtake.png" width="50" height="25">
+                               </center>
+            <br/>
+        </section>	    
     </article>    
     <script src="assets/js/jquery.js"></script>
    
